@@ -1,0 +1,19 @@
+{
+    "name": "ewan/sort",
+    "description": "Basic sorting algorithms for demonstration purposes.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ewan Thompson",
+            "email": "contact@ewan.me"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Sort\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
