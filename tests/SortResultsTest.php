@@ -9,11 +9,9 @@ class SortResultsTest extends TestCase
     public function testSortResultsInitialisedValuesCorrect()
     {
         $sorted = [5];
-        $timeTaken = 21;
         $swapsPerformed = 19;
-        $sortResults = new SortResults($sorted, $timeTaken, $swapsPerformed);
+        $sortResults = new SortResults($sorted, $swapsPerformed);
         $this->assertEquals($sorted, $sortResults->getSorted());
-        $this->assertEquals($timeTaken, $sortResults->getTimeTaken());
         $this->assertEquals($swapsPerformed, $sortResults->getSwapsPerformed());
     }
 }
