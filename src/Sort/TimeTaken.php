@@ -7,6 +7,8 @@ namespace Sort;
  *
  * This class is for rudimentary timing. It is not intended to be highly accurate, only indicative.
  *
+ * @author Ewan Thompson <contact@ewan.me>
+ *
  * @package Sort
  */
 class TimeTaken

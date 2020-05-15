@@ -4,6 +4,11 @@ namespace Sort;
 
 /**
  * Class Data
+ *
+ * Simple class to handle data for sorting algorithms to use.
+ *
+ * @author Ewan Thompson <contact@ewan.me>
+ *
  * @package Sort
  */
 class Data

@@ -4,6 +4,12 @@ namespace Sort;
 
 /**
  * Class MergeSort
+ *
+ * Implementation of merge sort algorithm.
+ * [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
+ *
+ * @author Ewan Thompson <contact@ewan.me>
+ *
  * @package Sort
  */
 class MergeSort implements SortInterface

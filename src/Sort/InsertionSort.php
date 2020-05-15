@@ -5,6 +5,12 @@ namespace Sort;
 
 /**
  * Class InsertionSort
+ *
+ * Implementation of insertion sort algorithm.
+ * [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
+ *
+ * @author Ewan Thompson <contact@ewan.me>
+ *
  * @package Sort
  */
 class InsertionSort implements SortInterface

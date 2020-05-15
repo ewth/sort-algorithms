@@ -4,6 +4,9 @@ namespace Sort;
 
 /**
  * Class SortResults
+ *
+ * @author Ewan Thompson <contact@ewan.me>
+ *
  * @package Sort
  */
 class SortResults
