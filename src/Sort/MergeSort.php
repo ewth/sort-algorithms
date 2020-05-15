@@ -31,7 +31,6 @@ class MergeSort implements SortInterface
 
         return new SortResults(
             $rightArray,
-            $timeTaken,
             $swaps
         );
     }

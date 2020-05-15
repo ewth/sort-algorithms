@@ -49,7 +49,6 @@ class InsertionSort implements SortInterface
         // Return results
         return new SortResults(
             $sorted,
-            $timeTaken,
             $swaps
         );
     }
