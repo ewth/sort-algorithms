@@ -21,7 +21,7 @@ class InsertionSortTest extends TestCase
         $items = [5, 3, 6, 1, 2, 4, 6, 9, 8, 1, 7, 1, 5];
         $sort = new InsertionSort;
         $result = $sort->sort($items);
-        $this->assertIsNumeric($result->getTimeTaken());
+        $this->assertGreaterThan(0, $result->getTimeTaken());
     }
 
     public function testInsertionSortReturnsSwapCount()
